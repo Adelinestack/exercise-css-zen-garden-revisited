@@ -1,0 +1,50 @@
+body {
+  background: #b1e8aa;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1503177847378-d2048487fa46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8b28e6a318b7c126e31813199050b9b&auto=format&fit=crop&w=967&q=80.');
+  background-size: cover;
+}
+
+header * {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.summary p {
+  background: red;
+}
+
+.preamble p:last-child {
+  background: purple;
+}
+
+.preamble p:first-of-type {
+  background: purple;
+}
+
+div[role='main'] {
+  border: dashed 1px red;
+}
+
+.main p:nth-of-type(odd) {
+  background: yellow;
+  color: green;
+}
+
+h3:hover {
+  border-bottom: dotted 5px pink;
+}
+
+li:nth-of-type(odd) {
+  background: orange;
+}
+
+li:nth-of-type(even) {
+  background: red;
+}
